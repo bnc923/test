@@ -31,6 +31,7 @@ def signup(request):
                 'domain': current_site.domain,
                 'uid': urlsafe_base64_encode(force_bytes(user.pk)),
                 'token': account_activation_token.make_token(user),
+                'hi': "1234567890"
             })
             user.email_user(subject, message)
 
