@@ -1,0 +1,1 @@
+<field name="attachment_ids">[(6, 0, [${object.quotation_pdf.id}])]</field>
